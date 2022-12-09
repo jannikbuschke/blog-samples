@@ -1,0 +1,25 @@
+root = true
+
+indent_size = 2
+indent_style = space
+tab_width = 2
+end_of_line = lf
+
+
+[*.fs]
+indent_style = space
+indent_size = 2
+end_of_line = crlf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+fsharp_space_before_uppercase_invocation = true
+
+# Write a comment by starting the line with a '#'
+[*.{fs,fsx,fsi}]
+fsharp_bar_before_discriminated_union_declaration = true
+
+# Apply specific settings for a targeted subfolder
+[src/Elmish/View.fs]
+fsharp_multiline_block_brackets_on_same_column = true
+fsharp_experimental_stroustrup_style = true
