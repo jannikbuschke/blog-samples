@@ -1,0 +1,27 @@
+{
+  "name": "getting-started-with-fable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Program.fs.js",
+  "type": "module",
+  "scripts": {
+    "client": "vite",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "5.1.6",
+    "@types/node": "20.4.2",
+    "vite": "4.4.3",
+    "@mantine/core": "6.0.17",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-query": "3.39.3",
+    "formik": "2.4.2",
+    "@types/react-dom": "18.2.7",
+    "@types/react": "18.2.15",
+    "prettier": "3.0.0",
+    "@tabler/icons-react": "2.26.0"
+  }
+}
