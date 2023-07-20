@@ -1,0 +1,19 @@
+{
+  "name": "getting-started-with-fable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Program.fs.js",
+  "type":"module",
+  "scripts": {
+    "init":"tsc init",
+    "tsc":"tsc --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript":"5.1.6",
+    "@types/node":"20.4.2",
+    "vite":"4.4.3"
+  }
+}
